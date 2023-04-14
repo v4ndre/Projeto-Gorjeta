@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gorjeta</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="area">
+        <div class="container">
+            <h1>Calculadora de Gorjeta</h1>
+            <div class="input_area">
+                <label for="valor">Valor:</label>
+                <input id="valor" type="number">
+            </div>
+            <div class="input_area">
+                <label for="pessoas">Quantas pessoas:</label>
+                <input id="pessoas" type="number">
+            </div>
+            <div class="input_area">
+                <label for="porcentagem">Porcentagem da gorjeta:</label>
+                <input id="porcentagem" type="number">
+            </div>
+            <button onclick="calculate()">Calcular Gorjeta</button>
+            <div class="resultado">
+                <h2>Resultado:</h2>
+                <h3>
+                    <span id="valorGorjeta"></span>
+                </h3>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body> 
+</html>
